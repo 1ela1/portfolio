@@ -13,6 +13,10 @@
    
     color: #eaa023;
 }
+.images{
+    height: max-content;
+    width: 200px;
+}
 
 .timeline-section{
     opacity: 0.9;

@@ -16,10 +16,15 @@ body {
    margin:0;
 
 }
+.images{
+  height: max-content;
+  max-width: ma;
+}
 
 .mySlides {
      display: none;
      margin-top: 50px;
+     height: 100%;
      }
 
 
