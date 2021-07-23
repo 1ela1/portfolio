@@ -32,8 +32,8 @@ body {
     font-family: sans-serif ;
     text-decoration: none;
     color: whitesmoke;
-    padding: 14px 16px;
-    font-size: 25px;
+    padding: 16px 16px;
+    font-size: 2vw;
     opacity: 0.7;
     
 }
@@ -56,12 +56,11 @@ body {
     margin-left: 75px;
     float: left;
     border-radius: 50%;
-    border-image: url("tumblr_00a36757e587b70831698434452041dd_8d2582f6_400.gif") 30 repeat;
     border: 10px solid palegoldenrod;
 }
 #hi{
     
-    color: wheat;
+    color: rgb(4, 3, 88);
     opacity:0.7;
     font-size: 40px;
     margin-top: 60px;
@@ -72,7 +71,7 @@ body {
 }
 #cse{
     
-    color: wheat;
+    color: rgb(0, 13, 85);
     opacity:0.7;
     margin-right: 75px;
     margin-left: 100px;
@@ -82,17 +81,54 @@ body {
     font-family: sans-serif;
     
 }
-.cse1{
-  
+@media(max-width:1150px){
+ 
+    #hi{
+        
+        padding-right: 90px;
+        opacity:0.7;
+        font-size: 4vw;
+        margin-top: 60px;
+        text-align: center;
+        float: none;
+       
+    }
+    #ela{
+        text-align: center;
+        padding-left: 50px;
+        float: none;
+        font-size: 5vw;
+    }
+    #img1{
+        align-content: center;
+        display: block;
+        margin-top: 100px;
+        margin-left: 35%;
+        margin-right: 37.5vw;
+        float: none;
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        border: 10px solid palegoldenrod;
+    }
+    #cse{
+    
+        
+       
+        font-size: 40px;
+        margin-top: 60px;
+        float: none;
+        
+    }
 }
 #ela{
     margin-left: -55px;
-    font-size: 55px;
+    font-size: 4vw;
     color:orangered ;
     opacity: 0.65;
 }
 #hidev{
-    margin-left: -75px;
+    margin-left: -90px;
     margin-right: 100px;
     font-size: 55px;
     color:orangered ;
