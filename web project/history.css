@@ -13,10 +13,7 @@
    
     color: #eaa023;
 }
-.images{
-    height: max-content;
-    width: 200px;
-}
+
 
 .timeline-section{
     opacity: 0.9;
@@ -48,13 +45,15 @@
 }
 .timeline-item:nth-child(odd){
     padding-right: calc(50% + 30px);
-    text-align: right;
+    text-align: center;
+    
 }
 .timeline-item:last-child{
     margin-bottom: 0;
 }
 .timeline-item:nth-child(even){
     padding-left: calc(50% + 30px);
+    text-align: center;
 }
 .timeline-dot{
     height: 16px;

@@ -170,10 +170,11 @@ body {
     padding-bottom: 250px;
 }
 #abtdesc{
+    font-size:1.4vw;
     opacity:0.9;
     color:whitesmoke;
     text-align: center;
-    text-decoration: double;
+    text-decoration: dou;
 }
 
 
